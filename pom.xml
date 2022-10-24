@@ -15,7 +15,6 @@
         <maven.compiler.target>17</maven.compiler.target>
 
         <!-- adone 1 -->
-
         <junit.version>5.9.1</junit.version>
         <assertj.version>3.23.1</assertj.version>
         <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
