@@ -1,0 +1,9 @@
+version: '3.1'
+
+services:
+  reverseproxy:
+    image: nginx:latest
+    container_name: nginxrp
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf
+      - ./nginx/reverse_proxy.conf:/etc/nginx/conf.d/reverse_proxy.conf
